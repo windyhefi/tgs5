@@ -53,10 +53,10 @@ function App() {
     //If the selected answer equals the correct answer, then we get the next trivia quesiton and increase the current points by 1
     if (selectedAnswer === correctAnswer) {
       getTriviaData();
-      setCurrentPoints(currentPoints + 1);
+      setCurrentPoints(currentPoints + 10);
     } else {
       //If the selected answer does not equal the correct answer, decreaes the current points by 1
-      setCurrentPoints(currentPoints - 1);
+      setCurrentPoints(currentPoints - 0);
     }
   }
 
