@@ -52,7 +52,7 @@ function App() {
       setCurrentPoints(currentPoints + 10);
     } else {
       
-      setCurrentPoints(currentPoints - 10);
+      setCurrentPoints(currentPoints - 0);
     }
   }
 
